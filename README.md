@@ -16,7 +16,7 @@ The goal is to automatically assess **answer quality, factual grounding, and ope
 
 ---
 
-## High-Level Architecture
+## Pipeline Architecture
 
 ```wasm
 conversation.json ─┐
@@ -114,7 +114,7 @@ To support millions of daily evaluations:
 llm-eval-pipeline/
 │
 ├── evaluator.py
-├── scorers/
+├── metrics/
 │       ├── relevance.py
 │       ├── hallucination.py
 │       └── latency_cost.py
@@ -123,9 +123,11 @@ llm-eval-pipeline/
 │       ├── embeddings.py
 │       └── json_loader.py
 │
-├── sample_inputs/
-│       ├── conversation.json
-│       └── context.json
+├── sample_data/
+│       ├── sample-chat-conversation-01.json
+│       ├── sample-chat-conversation-02.json
+│       ├── sample_context_vectors-01.json
+│       └── sample_context_vectors-02.json
 │
 ├── output/
 │       └── evaluation_report.json
