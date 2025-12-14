@@ -1,0 +1,15 @@
+{
+  "relevance_score": 0.406,
+  "hallucination_score": 0.3,
+  "unsupported_claims": [
+    "I understand that managing fertility concerns can be challenging",
+    " With an AMH of 0",
+    " Additionally, the presence of an intramural adenomyoma can further complicate things",
+    " I'd recommend discussing these options with one of our fertility specialists who can offer personalized advice",
+    " You can [book a consultation](https://pages",
+    "razorpay",
+    "com/ivfconsultation) to explore the best path forward based on your specific situation"
+  ],
+  "estimated_tokens": 115,
+  "estimated_cost_usd": 0.00023
+}
